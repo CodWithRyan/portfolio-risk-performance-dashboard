@@ -1,0 +1,24 @@
+# Portfolio Risk & Performance Dashboard
+
+## Objectif
+Analyser la performance et le risque d’un portefeuille multi-actifs (actions/ETF/devises) avec Python.
+
+## Données
+- Source: Yahoo Finance (via `yfinance`)
+- Période: [ex: 5 ans]
+- Tickers: [ex: SPY, AAPL, MSFT, TSLA, EURUSD=X]
+
+## Indicateurs (V1)
+- Rendement cumulé
+- Volatilité annualisée
+- Ratio de Sharpe (Rf = 0%)
+- Drawdown & Max Drawdown
+
+## Visualisations (V1)
+1. Performance cumulée (portefeuille vs benchmark)
+2. Histogramme des rendements quotidiens
+3. Courbe de drawdown
+
+## Architecture
+
+
