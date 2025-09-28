@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environnement virtuel
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# VS Code (facultatif)
+.vscode/
+
+# Données brutes (ne pas versionner)
+data/
+
+# Outputs : ignorer par défaut mais garder les livrables V1
+outputs/*
+!outputs/*.png
+!outputs/*.xlsx
