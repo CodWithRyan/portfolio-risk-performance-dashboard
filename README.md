@@ -44,3 +44,24 @@ Analyser la performance et le risque d’un portefeuille multi-actifs (actions/E
 - Ch. 20 : Courbes de volatilité
 - Ch. 23 (vols/corrélations)
 
+## Spécification V1
+
+**Indicateurs**  
+- Rendement cumulé  
+- Volatilité annualisée  
+- Ratio de Sharpe (Rf = 0%)  
+- Drawdown & Max Drawdown  
+
+**Graphes**  
+- Performance cumulée (portefeuille vs benchmark)  
+- Histogramme des rendements quotidiens  
+- Courbe de drawdown  
+
+**Livrables**  
+- Notebook exécutable  
+- 3 graphes sauvegardés dans `/outputs`  
+- Tableau des métriques (DataFrame) affiché dans le notebook  
+- (Optionnel) Export Excel des résultats  
+
+**Critères de réussite**  
+- Le projet doit tourner de bout en bout sur un clone vierge (juste `git clone`, `pip install -r requirements.txt`, et exécution du notebook).
